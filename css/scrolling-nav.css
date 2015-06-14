@@ -16,7 +16,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 50px 0;
+        padding: 6px 0; 
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -34,30 +34,46 @@ of those sections to manage the look and feel of the site. */
 
 .generic-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 250px;
     text-align: center;
 }
 
 .intro-section {
-    background: #fff;
+    background: #A3C7C2;
 }
 
 .about-section {
-    background: #eee;
+    background: #315C73;
 }
 
 .resume-section {
-    background: #fff;
+    background: #A5BCC8;
 }
 
 .project-section {
-    background: #eee;
+    background: #A0D183;
 }
 
 .gallery-section {
-    background: #eee;
+    background: #628598;
 }
 
 .contact-section {
-    background: #eee;
+    background: #A5BCC8;
+}
+
+
+img {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img:hover {
+    filter: none; /* IE6-9 */
+    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+
 }
