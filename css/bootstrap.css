@@ -3893,9 +3893,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
   background-color: #eee;
 }
-.mynavcolor {
-    background-color: #46307e
-}
 .nav > li.disabled > a {
   color: #777;
 }
